@@ -88,5 +88,11 @@ public class UnitPlayer : Unit
 			}
 			            
         }
+
+        if (collider.tag == "BalaDisparador")
+        {
+            // Muere de alguna forma no implementado aun
+            collider.gameObject.SetActive(false);
+        }
     }
 }
