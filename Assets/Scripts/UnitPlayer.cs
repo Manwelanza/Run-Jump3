@@ -6,6 +6,8 @@ public class UnitPlayer : Unit
 	float cameraRotX = 0f;
 	public float cameraPitchMax = 45f;
 	public bool muestraRaton = false;
+	public AudioClip sonidoPerder;
+	public AudioClip sonidoEstrella;
 
 	// Estrellas del marcador de puntuacion
 	public GameObject estrellaOff1;
@@ -79,6 +81,7 @@ public class UnitPlayer : Unit
     {
         if (collider.tag == "Recolectable")
         {
+			AudioSource.PlayClipAtPoint(sonidoEstrella, transform.position);
             collider.gameObject.SetActive(false);
 			nEstrellas++;
 			switch(nEstrellas) {
@@ -112,6 +115,8 @@ public class UnitPlayer : Unit
 
     public void perder ()
     {
+
+		AudioSource.PlayClipAtPoint (sonidoPerder, transform.position);
         // Poner aqui, alguna notificacion o algo como que se ha perdido
         estrellaOff1.SetActive(true);
         estrellaOn1.SetActive(false);
