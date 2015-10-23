@@ -21,7 +21,7 @@ public class moveBalaDisparador : MonoBehaviour
         contador += speed;
         if (contador >= limiteBalas)
         {
-            this.gameObject.SetActive(false);
+            Destroy(this.gameObject);
         }
     }
 

@@ -15,13 +15,22 @@ public class UnitPlayer : Unit
 	public GameObject estrellaOn2;
 	public GameObject estrellaOn3;
 
-	private int nEstrellas = 0;
+    // Estrellas para coger del mapa
+    public GameObject estrella1;
+    public GameObject estrella2;
+    public GameObject estrella3;
+
+    private int nEstrellas = 0;
+    private Vector3 posicionInicial;
+    private Quaternion rotacionInicial;
 	
 	// Use this for initialization
 	public override void Start ()
 	{
 		Cursor.visible = muestraRaton;
 		base.Start ();
+        posicionInicial = transform.position;
+        rotacionInicial = transform.rotation;
 	}
 	
 	// Update is called once per frame
@@ -91,8 +100,35 @@ public class UnitPlayer : Unit
 
         if (collider.tag == "BalaDisparador")
         {
-            // Muere de alguna forma no implementado aun
-            collider.gameObject.SetActive(false);
+            perder();
+            Destroy(collider.gameObject);
         }
+
+        if (collider.tag == "LimiteInferior")
+        {
+            perder();
+        }
+    }
+
+    public void perder ()
+    {
+        // Poner aqui, alguna notificacion o algo como que se ha perdido
+        estrellaOff1.SetActive(true);
+        estrellaOn1.SetActive(false);
+        estrellaOff2.SetActive(true);
+        estrellaOn2.SetActive(false);
+        estrellaOff3.SetActive(true);
+        estrellaOn3.SetActive(false);
+        estrella1.SetActive(true);
+        estrella2.SetActive(true);
+        estrella3.SetActive(true);
+        nEstrellas = 0;
+        respawn();
+    }
+
+    private void respawn ()
+    {
+        transform.position = posicionInicial;
+        transform.rotation = rotacionInicial;
     }
 }

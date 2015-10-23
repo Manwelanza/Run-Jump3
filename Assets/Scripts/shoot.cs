@@ -30,7 +30,9 @@ public class shoot : MonoBehaviour {
                 if (Physics.Raycast(ray, out hit, 100f))
                 {
                     if (hit.collider.gameObject != Player)
+                    {
                         Instantiate(BulletHole, hit.point, Quaternion.FromToRotation(Vector3.up, hit.normal));
+                    }
                 }
 
                 contador = 0f;

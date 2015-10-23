@@ -16,6 +16,6 @@ public class controlbulletHole : MonoBehaviour {
 	void Update () {
         contador += Time.deltaTime;
         if (contador > delayTimer)
-            this.gameObject.SetActive(false);
+            Destroy(this.gameObject);
 	}
 }
