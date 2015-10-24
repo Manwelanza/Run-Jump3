@@ -9,6 +9,9 @@ public class UnitPlayer : Unit
 	public AudioClip sonidoPerder;
 	public AudioClip sonidoEstrella;
 
+	// Mensaje de has ganado
+	public GameObject mensajeHasGanado;
+
 	// Estrellas del marcador de puntuacion
 	public GameObject estrellaOff1;
 	public GameObject estrellaOff2;
@@ -22,7 +25,7 @@ public class UnitPlayer : Unit
     public GameObject estrella2;
     public GameObject estrella3;
 
-    private int nEstrellas = 0;
+    private int nEstrellas = 1;
     private Vector3 posicionInicial;
     private Quaternion rotacionInicial;
 	
@@ -96,6 +99,7 @@ public class UnitPlayer : Unit
 			case 3:
 				estrellaOff3.SetActive(false);
 				estrellaOn3.SetActive(true);
+				mensajeHasGanado.SetActive(true);
 				break;
 			}
 			            
