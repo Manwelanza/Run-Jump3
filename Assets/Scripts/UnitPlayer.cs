@@ -107,10 +107,12 @@ public class UnitPlayer : Unit
             Destroy(collider.gameObject);
         }
 
-        if (collider.tag == "LimiteInferior")
+        if (collider.tag == "LimiteInferior" || collider.tag == "Pinchos")
         {
             perder();
         }
+
+
     }
 
     public void perder ()

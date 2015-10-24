@@ -74,7 +74,7 @@ BoxCollider:
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: .202795178, y: .195058018, z: .033090435}
-  m_Center: {x: -7.4505806e-09, y: 0, z: 7.4505806e-09}
+  m_Center: {x: -7.4505806e-09, y: .370000005, z: 7.4505806e-09}
 --- !u!95 &9568664
 Animator:
   serializedVersion: 3
@@ -109,7 +109,11 @@ Prefab:
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
-    m_Modifications: []
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_Center.y
+      value: .370000005
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 165886}
