@@ -188,7 +188,7 @@ GameObject:
   - 23: {fileID: 8488768}
   m_Layer: 0
   m_Name: Pincho (5)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -249,10 +249,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 8488766}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &8488771
 Animator:
@@ -286,7 +286,7 @@ GameObject:
   - 23: {fileID: 16204297}
   m_Layer: 0
   m_Name: Pincho (5)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -347,10 +347,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 16204295}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &16204300
 Animator:
@@ -833,8 +833,7 @@ Transform:
 --- !u!114 &72451101
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11480214, guid: e668b7017895dab4895fe0b2a0aa6952,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 72451099}
   m_Enabled: 1
@@ -875,7 +874,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 72451099}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -1045,7 +1044,7 @@ GameObject:
   - 23: {fileID: 103685317}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1106,10 +1105,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 103685315}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &103685320
 Animator:
@@ -1425,7 +1424,7 @@ GameObject:
   - 23: {fileID: 162942816}
   m_Layer: 0
   m_Name: Pincho (3)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1486,10 +1485,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 162942814}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &162942819
 Animator:
@@ -1577,7 +1576,7 @@ GameObject:
   - 23: {fileID: 172064250}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1638,10 +1637,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 172064248}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &172064253
 Animator:
@@ -2349,7 +2348,7 @@ GameObject:
   - 23: {fileID: 287327546}
   m_Layer: 0
   m_Name: Pincho (6)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2410,10 +2409,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 287327544}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &287327549
 Animator:
@@ -2447,7 +2446,7 @@ GameObject:
   - 23: {fileID: 292048384}
   m_Layer: 0
   m_Name: Pincho (6)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2508,10 +2507,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 292048382}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &292048387
 Animator:
@@ -2634,7 +2633,7 @@ GameObject:
   - 23: {fileID: 312885784}
   m_Layer: 0
   m_Name: Pincho (7)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2695,10 +2694,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 312885782}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &312885787
 Animator:
@@ -2732,7 +2731,7 @@ GameObject:
   - 23: {fileID: 323254212}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2793,10 +2792,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 323254210}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &323254215
 Animator:
@@ -2830,7 +2829,7 @@ GameObject:
   - 23: {fileID: 325383728}
   m_Layer: 0
   m_Name: Pincho (1)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2891,10 +2890,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 325383726}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &325383731
 Animator:
@@ -3013,7 +3012,7 @@ GameObject:
   - 23: {fileID: 387337040}
   m_Layer: 0
   m_Name: Pincho (5)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3074,10 +3073,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 387337038}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &387337043
 Animator:
@@ -3200,7 +3199,7 @@ GameObject:
   - 23: {fileID: 411986559}
   m_Layer: 0
   m_Name: Pincho (3)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3261,10 +3260,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 411986557}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &411986562
 Animator:
@@ -3471,7 +3470,7 @@ GameObject:
   - 23: {fileID: 434356481}
   m_Layer: 0
   m_Name: Pincho (3)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3532,10 +3531,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 434356479}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &434356484
 Animator:
@@ -3625,8 +3624,7 @@ Transform:
 --- !u!114 &443478718
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11480214, guid: e668b7017895dab4895fe0b2a0aa6952,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 443478716}
   m_Enabled: 1
@@ -3667,7 +3665,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 443478716}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -3859,7 +3857,7 @@ GameObject:
   - 23: {fileID: 455584662}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3920,10 +3918,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 455584660}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &455584665
 Animator:
@@ -4108,7 +4106,7 @@ GameObject:
   - 23: {fileID: 491682709}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4169,10 +4167,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 491682707}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &491682712
 Animator:
@@ -4260,7 +4258,7 @@ GameObject:
   - 23: {fileID: 504897574}
   m_Layer: 0
   m_Name: Pincho (2)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4321,10 +4319,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 504897572}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &504897577
 Animator:
@@ -4358,7 +4356,7 @@ GameObject:
   - 23: {fileID: 509260245}
   m_Layer: 0
   m_Name: Pincho (3)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4419,10 +4417,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 509260243}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &509260248
 Animator:
@@ -4585,39 +4583,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 633930114}
   m_RootOrder: 2
---- !u!1 &529471959 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 118502, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
-  m_PrefabInternal: {fileID: 1244251514}
---- !u!114 &529471961
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 529471959}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b26ce0c20e67a745bf500cf3faa1449, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 8
-  limiteMovimiento: 56
-  tiempoQuietas: 2
---- !u!54 &529471965
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 529471959}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: .0500000007
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 0
 --- !u!1 &533738341
 GameObject:
   m_ObjectHideFlags: 0
@@ -4632,7 +4597,7 @@ GameObject:
   - 23: {fileID: 533738343}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4693,10 +4658,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 533738341}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &533738346
 Animator:
@@ -4986,8 +4951,7 @@ Transform:
 --- !u!114 &559368262
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11480214, guid: e668b7017895dab4895fe0b2a0aa6952,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 559368260}
   m_Enabled: 1
@@ -5028,7 +4992,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 559368260}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -5423,7 +5387,7 @@ GameObject:
   - 23: {fileID: 619865055}
   m_Layer: 0
   m_Name: Pincho (7)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5484,10 +5448,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 619865053}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &619865058
 Animator:
@@ -5610,7 +5574,7 @@ GameObject:
   - 23: {fileID: 633930115}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5671,10 +5635,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 633930113}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &633930118
 Animator:
@@ -6141,7 +6105,7 @@ GameObject:
   - 23: {fileID: 703956686}
   m_Layer: 0
   m_Name: Pincho (4)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6202,10 +6166,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 703956684}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &703956689
 Animator:
@@ -6336,7 +6300,7 @@ GameObject:
   - 23: {fileID: 723619133}
   m_Layer: 0
   m_Name: Pincho (7)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6397,10 +6361,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 723619131}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &723619136
 Animator:
@@ -6711,7 +6675,7 @@ GameObject:
   - 23: {fileID: 746443331}
   m_Layer: 0
   m_Name: Pincho (1)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6772,10 +6736,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 746443329}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &746443334
 Animator:
@@ -7074,7 +7038,7 @@ GameObject:
   - 23: {fileID: 768281634}
   m_Layer: 0
   m_Name: Pincho (5)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7135,10 +7099,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 768281632}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &768281637
 Animator:
@@ -7349,7 +7313,7 @@ GameObject:
   - 23: {fileID: 788732578}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7410,10 +7374,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 788732576}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &788732581
 Animator:
@@ -7965,7 +7929,7 @@ GameObject:
   - 23: {fileID: 829404887}
   m_Layer: 0
   m_Name: Pincho (6)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8026,10 +7990,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 829404885}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &829404890
 Animator:
@@ -8063,7 +8027,7 @@ GameObject:
   - 23: {fileID: 837212430}
   m_Layer: 0
   m_Name: Pincho (4)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8124,10 +8088,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 837212428}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &837212433
 Animator:
@@ -8269,7 +8233,7 @@ GameObject:
   - 23: {fileID: 882961076}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8330,10 +8294,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 882961074}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &882961079
 Animator:
@@ -8483,7 +8447,7 @@ GameObject:
   - 23: {fileID: 904518437}
   m_Layer: 0
   m_Name: Pincho (3)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8544,10 +8508,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 904518435}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &904518440
 Animator:
@@ -8670,7 +8634,7 @@ GameObject:
   - 23: {fileID: 923518888}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8731,10 +8695,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 923518886}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &923518891
 Animator:
@@ -8857,7 +8821,7 @@ GameObject:
   - 23: {fileID: 927915649}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8918,10 +8882,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 927915647}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &927915652
 Animator:
@@ -9114,7 +9078,7 @@ GameObject:
   - 23: {fileID: 963141094}
   m_Layer: 0
   m_Name: Pincho (2)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9175,10 +9139,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 963141092}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &963141097
 Animator:
@@ -9332,7 +9296,7 @@ GameObject:
   - 23: {fileID: 990416123}
   m_Layer: 0
   m_Name: Pincho (4)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9393,10 +9357,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 990416121}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &990416126
 Animator:
@@ -10057,7 +10021,7 @@ GameObject:
   - 23: {fileID: 1117078324}
   m_Layer: 0
   m_Name: Pincho (4)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10118,10 +10082,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1117078322}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1117078327
 Animator:
@@ -10729,7 +10693,7 @@ GameObject:
   - 23: {fileID: 1227962479}
   m_Layer: 0
   m_Name: Pincho (3)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10790,10 +10754,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1227962477}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1227962482
 Animator:
@@ -11014,8 +10978,151 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 11480214, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+    - target: {fileID: 2342580, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b96847e47f92f1c429aee79df9a94b4a, type: 2}
+    - target: {fileID: 2345182, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b96847e47f92f1c429aee79df9a94b4a, type: 2}
+    - target: {fileID: 2301118, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b96847e47f92f1c429aee79df9a94b4a, type: 2}
+    - target: {fileID: 2347382, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b96847e47f92f1c429aee79df9a94b4a, type: 2}
+    - target: {fileID: 2359500, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b96847e47f92f1c429aee79df9a94b4a, type: 2}
+    - target: {fileID: 2301082, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b96847e47f92f1c429aee79df9a94b4a, type: 2}
+    - target: {fileID: 2323002, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b96847e47f92f1c429aee79df9a94b4a, type: 2}
+    - target: {fileID: 2397444, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b96847e47f92f1c429aee79df9a94b4a, type: 2}
+    - target: {fileID: 2343566, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b96847e47f92f1c429aee79df9a94b4a, type: 2}
+    - target: {fileID: 6446638, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6446638, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 118698, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_TagString
+      value: Pinchos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6459374, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6459374, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100156, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_TagString
+      value: Pinchos
+      objectReference: {fileID: 0}
+    - target: {fileID: 134834, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_TagString
+      value: Pinchos
+      objectReference: {fileID: 0}
+    - target: {fileID: 197442, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_TagString
+      value: Pinchos
+      objectReference: {fileID: 0}
+    - target: {fileID: 117784, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_TagString
+      value: Pinchos
+      objectReference: {fileID: 0}
+    - target: {fileID: 145892, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_TagString
+      value: Pinchos
+      objectReference: {fileID: 0}
+    - target: {fileID: 135462, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_TagString
+      value: Pinchos
+      objectReference: {fileID: 0}
+    - target: {fileID: 185954, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_TagString
+      value: Pinchos
+      objectReference: {fileID: 0}
+    - target: {fileID: 129592, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_TagString
+      value: Pinchos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6423902, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6478196, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6425844, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458170, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6450744, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465304, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6407698, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6423902, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6478196, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6425844, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6458170, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6450744, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6465304, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6407698, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e668b7017895dab4895fe0b2a0aa6952, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &1248825999
@@ -11059,7 +11166,7 @@ GameObject:
   - 23: {fileID: 1249425350}
   m_Layer: 0
   m_Name: Pincho (6)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11120,10 +11227,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1249425348}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1249425353
 Animator:
@@ -11246,7 +11353,7 @@ GameObject:
   - 23: {fileID: 1263341532}
   m_Layer: 0
   m_Name: Pincho (5)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11307,10 +11414,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1263341530}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1263341535
 Animator:
@@ -11460,7 +11567,7 @@ GameObject:
   - 23: {fileID: 1279035484}
   m_Layer: 0
   m_Name: Pincho (1)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11521,10 +11628,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279035482}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1279035487
 Animator:
@@ -11558,7 +11665,7 @@ GameObject:
   - 23: {fileID: 1279278544}
   m_Layer: 0
   m_Name: Pincho (2)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11619,10 +11726,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1279278542}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1279278547
 Animator:
@@ -11764,7 +11871,7 @@ GameObject:
   - 23: {fileID: 1318923333}
   m_Layer: 0
   m_Name: Pincho (4)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11825,10 +11932,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1318923331}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1318923336
 Animator:
@@ -12237,7 +12344,7 @@ GameObject:
   - 23: {fileID: 1388239148}
   m_Layer: 0
   m_Name: Pincho (5)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12298,10 +12405,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1388239146}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1388239151
 Animator:
@@ -12335,7 +12442,7 @@ GameObject:
   - 23: {fileID: 1395386175}
   m_Layer: 0
   m_Name: Pincho (4)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12396,10 +12503,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1395386173}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1395386178
 Animator:
@@ -12433,7 +12540,7 @@ GameObject:
   - 23: {fileID: 1410929640}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12494,10 +12601,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1410929638}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1410929643
 Animator:
@@ -12587,8 +12694,7 @@ Transform:
 --- !u!114 &1427955995
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11480214, guid: e668b7017895dab4895fe0b2a0aa6952,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1427955993}
   m_Enabled: 1
@@ -12629,7 +12735,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1427955993}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -12715,6 +12821,80 @@ Transform:
   m_Children: []
   m_Father: {fileID: 731705068}
   m_RootOrder: 6
+--- !u!1 &1439822421
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1439822422}
+  - 23: {fileID: 1439822424}
+  - 102: {fileID: 1439822423}
+  m_Layer: 0
+  m_Name: Timer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1439822422
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439822421}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5.15700006, y: 2.21600008, z: 3.40000892}
+  m_LocalScale: {x: 1, y: .569794178, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2092174380}
+  m_RootOrder: 7
+--- !u!102 &1439822423
+TextMesh:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439822421}
+  m_Text: 0.00s
+  m_OffsetZ: -.270000011
+  m_CharacterSize: .200000003
+  m_LineSpacing: 1
+  m_Anchor: 2
+  m_Alignment: 0
+  m_TabSize: 4
+  m_FontSize: 0
+  m_FontStyle: 3
+  m_RichText: 1
+  m_Font: {fileID: 12800000, guid: 9ffbef9e6056f834fa648dbc709527c8, type: 3}
+  m_Color:
+    serializedVersion: 2
+    rgba: 4281216623
+--- !u!23 &1439822424
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1439822421}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 9ffbef9e6056f834fa648dbc709527c8, type: 3}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 0
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_ImportantGI: 0
+  m_AutoUVMaxDistance: .5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
 --- !u!1 &1458717310
 GameObject:
   m_ObjectHideFlags: 0
@@ -12756,7 +12936,7 @@ GameObject:
   - 23: {fileID: 1463640441}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12817,10 +12997,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1463640439}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1463640444
 Animator:
@@ -12854,7 +13034,7 @@ GameObject:
   - 23: {fileID: 1464972089}
   m_Layer: 0
   m_Name: Pincho (6)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12915,10 +13095,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1464972087}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1464972092
 Animator:
@@ -12952,7 +13132,7 @@ GameObject:
   - 23: {fileID: 1472906833}
   m_Layer: 0
   m_Name: Pincho (1)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13013,10 +13193,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1472906831}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1472906836
 Animator:
@@ -13675,8 +13855,7 @@ Transform:
 --- !u!114 &1547087878
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11480214, guid: e668b7017895dab4895fe0b2a0aa6952,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1547087876}
   m_Enabled: 1
@@ -13717,7 +13896,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1547087876}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -13771,7 +13950,7 @@ GameObject:
   - 23: {fileID: 1549250707}
   m_Layer: 0
   m_Name: Pincho (3)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13832,10 +14011,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1549250705}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1549250710
 Animator:
@@ -13896,7 +14075,7 @@ GameObject:
   - 23: {fileID: 1551746699}
   m_Layer: 0
   m_Name: Pincho (1)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13957,10 +14136,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1551746697}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1551746702
 Animator:
@@ -14145,7 +14324,7 @@ GameObject:
   - 23: {fileID: 1583364098}
   m_Layer: 0
   m_Name: Pincho (1)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14206,10 +14385,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1583364096}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1583364101
 Animator:
@@ -14378,7 +14557,7 @@ GameObject:
   - 23: {fileID: 1595862972}
   m_Layer: 0
   m_Name: Pincho (7)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14439,10 +14618,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1595862970}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1595862975
 Animator:
@@ -14625,7 +14804,7 @@ GameObject:
   - 23: {fileID: 1623984012}
   m_Layer: 0
   m_Name: Pincho (6)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14686,10 +14865,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1623984010}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1623984015
 Animator:
@@ -14723,7 +14902,7 @@ GameObject:
   - 23: {fileID: 1627668481}
   m_Layer: 0
   m_Name: Pincho (1)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14784,10 +14963,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1627668479}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1627668484
 Animator:
@@ -14917,7 +15096,7 @@ GameObject:
   - 23: {fileID: 1642219783}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14978,10 +15157,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1642219781}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1642219786
 Animator:
@@ -15042,7 +15221,7 @@ GameObject:
   - 23: {fileID: 1649532940}
   m_Layer: 0
   m_Name: Pincho (3)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15103,10 +15282,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1649532938}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1649532943
 Animator:
@@ -15202,7 +15381,7 @@ GameObject:
   - 23: {fileID: 1661217273}
   m_Layer: 0
   m_Name: Pincho (2)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15263,10 +15442,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1661217271}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1661217276
 Animator:
@@ -15509,7 +15688,7 @@ GameObject:
   - 23: {fileID: 1695729641}
   m_Layer: 0
   m_Name: Pincho (5)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15570,10 +15749,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1695729639}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1695729644
 Animator:
@@ -15607,7 +15786,7 @@ GameObject:
   - 23: {fileID: 1698401343}
   m_Layer: 0
   m_Name: Pincho (7)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15668,10 +15847,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1698401341}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1698401346
 Animator:
@@ -15957,7 +16136,7 @@ GameObject:
   - 23: {fileID: 1745828464}
   m_Layer: 0
   m_Name: Pincho (5)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16018,10 +16197,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1745828462}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1745828467
 Animator:
@@ -16221,7 +16400,7 @@ GameObject:
   - 23: {fileID: 1774332006}
   m_Layer: 0
   m_Name: Pincho (2)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16267,10 +16446,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1774332005}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1774332009
 Animator:
@@ -16402,8 +16581,7 @@ Transform:
 --- !u!114 &1808916555
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11480214, guid: e668b7017895dab4895fe0b2a0aa6952,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1808916553}
   m_Enabled: 1
@@ -16444,7 +16622,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1808916553}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -16471,7 +16649,7 @@ GameObject:
   - 23: {fileID: 1810802794}
   m_Layer: 0
   m_Name: Pincho (1)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16532,10 +16710,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1810802792}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1810802797
 Animator:
@@ -16815,8 +16993,7 @@ Transform:
 --- !u!114 &1835852463
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11480214, guid: e668b7017895dab4895fe0b2a0aa6952,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1835852461}
   m_Enabled: 1
@@ -16857,7 +17034,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1835852461}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -17089,7 +17266,7 @@ GameObject:
   - 23: {fileID: 1878565639}
   m_Layer: 0
   m_Name: Pincho (4)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17150,10 +17327,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1878565637}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1878565642
 Animator:
@@ -17187,7 +17364,7 @@ GameObject:
   - 23: {fileID: 1892826434}
   m_Layer: 0
   m_Name: Pincho (2)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17248,10 +17425,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1892826432}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1892826437
 Animator:
@@ -17401,7 +17578,7 @@ GameObject:
   - 23: {fileID: 1934426269}
   m_Layer: 0
   m_Name: Pincho (6)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17462,10 +17639,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1934426267}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1934426272
 Animator:
@@ -17526,7 +17703,7 @@ GameObject:
   - 23: {fileID: 1940516935}
   m_Layer: 0
   m_Name: Pincho (2)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17587,10 +17764,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940516933}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1940516938
 Animator:
@@ -17624,7 +17801,7 @@ GameObject:
   - 23: {fileID: 1947566379}
   m_Layer: 0
   m_Name: Pincho (4)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17685,10 +17862,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1947566377}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1947566382
 Animator:
@@ -17722,7 +17899,7 @@ GameObject:
   - 23: {fileID: 1947612779}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17783,10 +17960,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1947612777}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1947612782
 Animator:
@@ -17847,7 +18024,7 @@ GameObject:
   - 23: {fileID: 1953751207}
   m_Layer: 0
   m_Name: Pincho (2)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17908,10 +18085,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1953751205}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &1953751210
 Animator:
@@ -18169,7 +18346,7 @@ GameObject:
   - 23: {fileID: 2034191887}
   m_Layer: 0
   m_Name: Pincho (6)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18230,10 +18407,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2034191885}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &2034191890
 Animator:
@@ -18398,7 +18575,7 @@ GameObject:
   - 23: {fileID: 2069934559}
   m_Layer: 0
   m_Name: Pincho (7)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18459,10 +18636,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2069934557}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &2069934562
 Animator:
@@ -18496,7 +18673,7 @@ GameObject:
   - 23: {fileID: 2073197800}
   m_Layer: 0
   m_Name: Pincho (7)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18557,10 +18734,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2073197798}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &2073197803
 Animator:
@@ -18623,8 +18800,7 @@ Transform:
 --- !u!114 &2074775214
 MonoBehaviour:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11480214, guid: e668b7017895dab4895fe0b2a0aa6952,
-    type: 2}
+  m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2074775212}
   m_Enabled: 1
@@ -18665,7 +18841,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2074775212}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -18791,7 +18967,6 @@ MonoBehaviour:
   muestraRaton: 1
   sonidoPerder: {fileID: 8300000, guid: 887c92162ad4b4946b042caee9d28acb, type: 3}
   sonidoEstrella: {fileID: 8300000, guid: 4c0096d2357d0ff438e23970fbc3230a, type: 3}
-  mensajeHasGanado: {fileID: 1087758115}
   estrellaOff1: {fileID: 1755748805}
   estrellaOff2: {fileID: 1673474562}
   estrellaOff3: {fileID: 699555638}
@@ -18862,6 +19037,7 @@ Transform:
   - {fileID: 64934561}
   - {fileID: 2137684676}
   - {fileID: 982288033}
+  - {fileID: 1439822422}
   m_Father: {fileID: 0}
   m_RootOrder: 4
 --- !u!143 &2092174381
@@ -19080,7 +19256,7 @@ GameObject:
   - 23: {fileID: 2125231063}
   m_Layer: 0
   m_Name: Pincho
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19141,10 +19317,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2125231061}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &2125231066
 Animator:
@@ -19178,7 +19354,7 @@ GameObject:
   - 23: {fileID: 2126539563}
   m_Layer: 0
   m_Name: Pincho (7)
-  m_TagString: Untagged
+  m_TagString: Pinchos
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19239,10 +19415,10 @@ MeshCollider:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2126539561}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 0
+  m_Convex: 1
   m_Mesh: {fileID: 4300000, guid: 6a80bf6c49b042a43905e2dc73e69520, type: 3}
 --- !u!95 &2126539566
 Animator:

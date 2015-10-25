@@ -9,9 +9,6 @@ public class UnitPlayer : Unit
 	public AudioClip sonidoPerder;
 	public AudioClip sonidoEstrella;
 
-	// Mensaje de has ganado
-	public GameObject mensajeHasGanado;
-
 	// Estrellas del marcador de puntuacion
 	public GameObject estrellaOff1;
 	public GameObject estrellaOff2;
@@ -28,57 +25,83 @@ public class UnitPlayer : Unit
     private int nEstrellas = 1;
     private Vector3 posicionInicial;
     private Quaternion rotacionInicial;
-	
-	// Use this for initialization
-	public override void Start ()
+    private float temporizador = 0f;
+    private bool ganar = false;
+    private float timeScale;
+    private float fixedDeltaTime;
+
+    // Use this for initialization
+    public override void Start ()
 	{
 		Cursor.visible = muestraRaton;
 		base.Start ();
         posicionInicial = transform.position;
         rotacionInicial = transform.rotation;
-	}
+        timeScale = Time.timeScale;
+        fixedDeltaTime = Time.fixedDeltaTime;
+    }
 	
 	// Update is called once per frame
 	public override void Update ()
 	{
-        // rotation
+        if (!ganar)
+        {
+            // rotation
 
-        //transform.Rotate (0f, Input.GetAxis ("Mouse X") * turnSpeed * Time.deltaTime, 0f);
+            //transform.Rotate (0f, Input.GetAxis ("Mouse X") * turnSpeed * Time.deltaTime, 0f);
 
-        //cameraRotX -= Input.GetAxis ("Mouse Y");
+            //cameraRotX -= Input.GetAxis ("Mouse Y");
 
-        cameraRotX = Mathf.Clamp (cameraRotX, -cameraPitchMax, cameraPitchMax);
-		
-		Camera.main.transform.forward = transform.forward;
-		Camera.main.transform.Rotate (cameraRotX, 0f, 0f);
-		
-		// movement
-		
-		move = new Vector3(Input.GetAxis ("Horizontal"), 0f, Input.GetAxis ("Vertical"));
-		
-		move.Normalize();
-		
-		move = transform.TransformDirection (move);
-		
-		if (Input.GetKey(KeyCode.Space) && control.isGrounded)
-		{
-			jump = true;	
-		}
-		// Mostrar el raton cuando se pulsa escape, volver a ocultarlo al pulsar otra vez
-		if (Input.GetKey (KeyCode.Escape)) {
-			if (!Cursor.visible) {
-				muestraRaton = true;
-				Cursor.visible = muestraRaton;
-			} else {
-				muestraRaton = false;
-				Cursor.visible = muestraRaton;
-			}
-		}
-		
-		running = Input.GetKey (KeyCode.LeftShift)  || Input.GetKey (KeyCode.RightShift);
-		
-		base.Update ();
-	}
+            cameraRotX = Mathf.Clamp(cameraRotX, -cameraPitchMax, cameraPitchMax);
+
+            Camera.main.transform.forward = transform.forward;
+            Camera.main.transform.Rotate(cameraRotX, 0f, 0f);
+
+            // movement
+
+            move = new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical"));
+
+            move.Normalize();
+
+            move = transform.TransformDirection(move);
+
+            if (Input.GetKey(KeyCode.Space) && control.isGrounded)
+            {
+                jump = true;
+            }
+            // Mostrar el raton cuando se pulsa escape, volver a ocultarlo al pulsar otra vez
+            if (Input.GetKey(KeyCode.Escape))
+            {
+                if (!Cursor.visible)
+                {
+                    muestraRaton = true;
+                    Cursor.visible = muestraRaton;
+                }
+                else
+                {
+                    muestraRaton = false;
+                    Cursor.visible = muestraRaton;
+                }
+            }
+
+            running = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+
+            base.Update();
+            temporizador += Time.deltaTime;
+        }
+
+        else
+        {
+            // Paramos el tiempo
+            Time.timeScale = 0f;
+            Time.fixedDeltaTime = 0f;
+            // Pasamos a otro nivel despues de un tiempo o lo que queramos
+            if (Input.GetKey(KeyCode.R))
+                perder();
+                
+        }
+        GameObject.Find("Timer").GetComponent<TextMesh>().text = temporizador.ToString("F2") + "s";
+    }
 
     void OnTriggerEnter(Collider collider)
     {
@@ -99,7 +122,7 @@ public class UnitPlayer : Unit
 			case 3:
 				estrellaOff3.SetActive(false);
 				estrellaOn3.SetActive(true);
-				mensajeHasGanado.SetActive(true);
+                ganar = true;
 				break;
 			}
 			            
@@ -134,6 +157,10 @@ public class UnitPlayer : Unit
         estrella2.SetActive(true);
         estrella3.SetActive(true);
         nEstrellas = 0;
+        ganar = false;
+        temporizador = 0f;
+        Time.timeScale = timeScale;
+        Time.fixedDeltaTime = fixedDeltaTime;
         respawn();
     }
 
@@ -141,5 +168,19 @@ public class UnitPlayer : Unit
     {
         transform.position = posicionInicial;
         transform.rotation = rotacionInicial;
+    }
+
+    public void OnGUI ()
+    {
+        if (ganar)
+        {
+            
+            string texto = "<b><color=blue>Has ganado</color>\n<color=lightblue>Tiempo: " + temporizador.ToString("F2") + "s</color></b>";
+            GUIStyle estilo = GUI.skin.GetStyle("Label");
+            estilo.alignment = TextAnchor.UpperCenter;
+            estilo.fontSize = 75;
+            estilo.richText = true;
+            GUI.Label(new Rect(Screen.width / 2 - 400, Screen.height / 2 - 250, 800, 500), texto, estilo);
+        }
     }
 }

@@ -80,7 +80,6 @@ public class moverPlataformas : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("hola");
         if (collision.collider.tag == "Player")
         {
            //playerUp = true;
