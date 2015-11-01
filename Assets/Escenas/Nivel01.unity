@@ -18963,6 +18963,7 @@ MonoBehaviour:
   runSpeed: 20
   turnSpeed: 90
   jumpSpeed: 12
+  sonidoSprint: {fileID: 0}
   cameraPitchMax: 45
   muestraRaton: 1
   sonidoPerder: {fileID: 8300000, guid: 887c92162ad4b4946b042caee9d28acb, type: 3}
@@ -19066,14 +19067,14 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: c9e5484dda5fe92439600e1d667bf5b3, type: 3}
+  m_audioClip: {fileID: 8300000, guid: b717c6704037c5f47b23e931316d7e8d, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: .159999996
+  m_Volume: .680000007
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
-  Priority: 23
+  Priority: 113
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500

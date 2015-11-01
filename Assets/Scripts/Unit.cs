@@ -14,6 +14,7 @@ public class Unit : MonoBehaviour
 	public float runSpeed = 5f;
 	public float turnSpeed = 90f;
 	public float jumpSpeed = 5f;
+	public AudioClip sonidoSprint = new AudioClip();
 	
 	protected bool jump;
 	protected bool running;
@@ -23,6 +24,7 @@ public class Unit : MonoBehaviour
 	// Use this for initialization
 	public virtual void Start ()
 	{
+		sonidoSprint = (AudioClip)Resources.Load ("SonidoExplosion", typeof(AudioClip));
 		control = GetComponent<CharacterController>();
 		
 		if (!control)
@@ -37,8 +39,10 @@ public class Unit : MonoBehaviour
 	{
 		//control.SimpleMove (move * moveSpeed);
 		
-		if (running)
+		if (running) {
 			move *= runSpeed;
+			AudioSource.PlayClipAtPoint(sonidoSprint, transform.position);
+		}
 		else
 			move *= walkSpeed;
 		
