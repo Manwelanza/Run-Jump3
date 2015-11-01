@@ -19104,7 +19104,6 @@ MonoBehaviour:
   runSpeed: 20
   turnSpeed: 90
   jumpSpeed: 12
-  sonidoSprint: {fileID: 0}
   cameraPitchMax: 45
   muestraRaton: 1
   sonidoPerder: {fileID: 8300000, guid: 887c92162ad4b4946b042caee9d28acb, type: 3}

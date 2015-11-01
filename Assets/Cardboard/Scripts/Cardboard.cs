@@ -29,6 +29,10 @@ using System.Collections.Generic;
 /// by this script at runtime, or you can add one via the Editor if you wish to customize
 /// its starting properties.
 public class Cardboard : MonoBehaviour {
+
+	public delegate void CardboardOnGUIEvent();
+	public event CardboardOnGUIEvent OnGUIRender;
+
   /// The singleton instance of the Cardboard class.
   /// Not null: the instance is created automatically on demand if not already present.
   public static Cardboard SDK {
@@ -576,6 +580,7 @@ public class Cardboard : MonoBehaviour {
   }
 
   IEnumerator EndOfFrame() {
+	if(OnGUIRender != null) OnGUIRender();
     while (true) {
       yield return new WaitForEndOfFrame();
       UpdateState();  // Just in case it hasn't happened by now.

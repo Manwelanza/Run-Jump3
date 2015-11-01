@@ -30,6 +30,7 @@ public class UnitPlayer : Unit
     private float timeScale;
     private float fixedDeltaTime;
 
+
     // Use this for initialization
     public override void Start ()
 	{
@@ -102,6 +103,9 @@ public class UnitPlayer : Unit
         }
         GameObject.Find("Timer").GetComponent<TextMesh>().text = temporizador.ToString("F2") + "s";
     }
+
+	void OnDestroy(){
+	}
 
     void OnTriggerEnter(Collider collider)
     {
