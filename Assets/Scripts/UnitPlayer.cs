@@ -140,11 +140,15 @@ public class UnitPlayer : Unit
             Destroy(collider.gameObject);
         }
 
-        if (collider.tag == "LimiteInferior" || collider.tag == "Pinchos")
+        if (collider.tag == "Pinchos")
         {
             perder();
         }
 
+		if (collider.tag == "LimiteInferior") 
+		{
+			ReproductorSonidos.Instancia.ReproducirSonidoCaer(posicionInicial);
+		}
 
     }
 

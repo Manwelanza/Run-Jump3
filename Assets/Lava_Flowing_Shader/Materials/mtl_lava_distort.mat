@@ -53,20 +53,20 @@ Material:
     m_Floats:
       data:
         first:
-          name: _DistortX
-        second: 1.07142854
-      data:
-        first:
-          name: _DistortY
-        second: 0
-      data:
-        first:
           name: _RefractTexTiling
         second: 1
       data:
         first:
           name: _Displacement
         second: .0375000015
+      data:
+        first:
+          name: _DistortX
+        second: 1.07142854
+      data:
+        first:
+          name: _DistortY
+        second: 0
     m_Colors:
       data:
         first:
