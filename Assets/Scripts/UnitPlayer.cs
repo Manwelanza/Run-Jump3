@@ -6,8 +6,6 @@ public class UnitPlayer : Unit
 	float cameraRotX = 0f;
 	public float cameraPitchMax = 45f;
 	public bool muestraRaton = false;
-	public AudioClip sonidoPerder;
-	public AudioClip sonidoEstrella;
 
 	// Estrellas del marcador de puntuacion
 	public GameObject estrellaOff1;
@@ -30,7 +28,6 @@ public class UnitPlayer : Unit
     private float timeScale;
     private float fixedDeltaTime;
 
-
     // Use this for initialization
     public override void Start ()
 	{
@@ -45,6 +42,7 @@ public class UnitPlayer : Unit
 	// Update is called once per frame
 	public override void Update ()
 	{
+
         if (!ganar)
         {
             // rotation
@@ -86,6 +84,10 @@ public class UnitPlayer : Unit
             }
 
             running = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
+			if (running){
+				// Reducir el sonido del jetpack a un sonido de tan solo 1 segundo (o menos)
+				//ReproductorSonidos.Instancia.ReproducirSonidoJetPack(transform.position);
+			}
 
             base.Update();
             temporizador += Time.deltaTime;
@@ -111,7 +113,7 @@ public class UnitPlayer : Unit
     {
         if (collider.tag == "Recolectable")
         {
-			AudioSource.PlayClipAtPoint(sonidoEstrella, transform.position);
+			ReproductorSonidos.Instancia.ReproducirSonidoEstrella(transform.position);
             collider.gameObject.SetActive(false);
 			nEstrellas++;
 			switch(nEstrellas) {
@@ -149,7 +151,7 @@ public class UnitPlayer : Unit
     public void perder ()
     {
 
-		AudioSource.PlayClipAtPoint (sonidoPerder, transform.position);
+		ReproductorSonidos.Instancia.ReproducirSonidoPerder(posicionInicial);
         // Poner aqui, alguna notificacion o algo como que se ha perdido
         estrellaOff1.SetActive(true);
         estrellaOn1.SetActive(false);
