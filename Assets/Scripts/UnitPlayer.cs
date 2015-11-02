@@ -37,6 +37,7 @@ public class UnitPlayer : Unit
         rotacionInicial = transform.rotation;
         timeScale = Time.timeScale;
         fixedDeltaTime = Time.fixedDeltaTime;
+		GameObject.Find ("Ganar").GetComponent<Canvas> ().enabled = false;
     }
 	
 	// Update is called once per frame
@@ -95,10 +96,12 @@ public class UnitPlayer : Unit
 
         else
         {
+
             // Paramos el tiempo
             Time.timeScale = 0f;
             Time.fixedDeltaTime = 0f;
             // Pasamos a otro nivel despues de un tiempo o lo que queramos
+			GameObject.Find ("Ganar").GetComponent<Canvas> ().enabled = true;
             if (Input.GetKey(KeyCode.R))
                 perder();
                 
@@ -156,6 +159,7 @@ public class UnitPlayer : Unit
     {
 
 		ReproductorSonidos.Instancia.ReproducirSonidoPerder(posicionInicial);
+		GameObject.Find ("Ganar").GetComponent<Canvas> ().enabled = false;
         // Poner aqui, alguna notificacion o algo como que se ha perdido
         estrellaOff1.SetActive(true);
         estrellaOn1.SetActive(false);
@@ -180,17 +184,4 @@ public class UnitPlayer : Unit
         transform.rotation = rotacionInicial;
     }
 
-    public void OnGUI ()
-    {
-        if (ganar)
-        {
-            
-            string texto = "<b><color=blue>Has ganado</color>\n<color=lightblue>Tiempo: " + temporizador.ToString("F2") + "s</color></b>";
-            GUIStyle estilo = GUI.skin.GetStyle("Label");
-            estilo.alignment = TextAnchor.UpperCenter;
-            estilo.fontSize = 75;
-            estilo.richText = true;
-            GUI.Label(new Rect(Screen.width / 2 - 400, Screen.height / 2 - 250, 800, 500), texto, estilo);
-        }
-    }
 }
