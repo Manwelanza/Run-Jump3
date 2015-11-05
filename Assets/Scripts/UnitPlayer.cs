@@ -20,7 +20,7 @@ public class UnitPlayer : Unit
     public GameObject estrella2;
     public GameObject estrella3;
 
-    private int nEstrellas = 1;
+    private int nEstrellas = 0;
     private Vector3 posicionInicial;
     private Quaternion rotacionInicial;
     private float temporizador = 0f;
