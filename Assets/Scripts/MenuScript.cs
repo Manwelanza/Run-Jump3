@@ -9,6 +9,8 @@ public class MenuScript : MonoBehaviour {
     public Button startText;
     public Button exitText;
     public Button optionText;
+    public Button imageStart;
+    public Button imageExit;
 
     // Use this for initialization
     void Start ()
@@ -18,9 +20,12 @@ public class MenuScript : MonoBehaviour {
         startText = startText.GetComponent<Button>();
         exitText = exitText.GetComponent<Button>();
         optionText = optionText.GetComponent<Button>();
+        imageStart = imageStart.GetComponent<Button>();
+        imageExit = imageExit.GetComponent<Button>();
         optionMenu.enabled = false;
         quitMenu.enabled = false;
     }
+
 
     // Método que muestra el menu de opciones y desactiva los botones del menu principal
     public void OptionPress ()
@@ -29,6 +34,8 @@ public class MenuScript : MonoBehaviour {
         startText.enabled = false;
         exitText.enabled = false;
         optionText.enabled = false;
+        imageStart.enabled = false;
+        imageExit.enabled = false;
     }
 
     // Método que desactiva el menu de opciones y reactiva los botones del menu principal
@@ -38,6 +45,8 @@ public class MenuScript : MonoBehaviour {
         startText.enabled = true;
         exitText.enabled = true;
         optionText.enabled = true;
+        imageStart.enabled = true;
+        imageExit.enabled = true;
     }
 	
     // Método que muestra el menu de salir del juego y desactiva los botones del menu principal
@@ -47,6 +56,8 @@ public class MenuScript : MonoBehaviour {
         startText.enabled = false;
         exitText.enabled = false;
         optionText.enabled = false;
+        imageStart.enabled = false;
+        imageExit.enabled = false;
     }
 
     // Método que desactiva el menu de salir del juego y reactiva los botones del menu principal
@@ -56,6 +67,8 @@ public class MenuScript : MonoBehaviour {
         startText.enabled = true; 
         exitText.enabled = true;
         optionText.enabled = true;
+        imageStart.enabled = true;
+        imageExit.enabled = true;
     }
 
     // Método para cargar el primer nivel
