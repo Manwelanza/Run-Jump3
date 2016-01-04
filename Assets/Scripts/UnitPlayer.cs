@@ -27,6 +27,7 @@ public class UnitPlayer : Unit
     private bool ganar = false;
     private float timeScale;
     private float fixedDeltaTime;
+    private bool paused = false;
 
     // Use this for initialization
     public override void Start ()
@@ -82,6 +83,7 @@ public class UnitPlayer : Unit
                     muestraRaton = false;
                     Cursor.visible = muestraRaton;
                 }
+                //pause();
             }
 
             running = Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift);
@@ -92,6 +94,14 @@ public class UnitPlayer : Unit
 
             base.Update();
             temporizador += Time.deltaTime;
+        }
+
+        else if (paused)
+        {
+           /* if (Input.GetKey(KeyCode.Escape))
+            {
+                pause();
+            }*/
         }
 
         else
@@ -151,6 +161,7 @@ public class UnitPlayer : Unit
 		if (collider.tag == "LimiteInferior") 
 		{
 			ReproductorSonidos.Instancia.ReproducirSonidoCaer(posicionInicial);
+            perder();
 		}
 
     }
@@ -160,7 +171,6 @@ public class UnitPlayer : Unit
 
 		ReproductorSonidos.Instancia.ReproducirSonidoPerder(posicionInicial);
 		GameObject.Find ("Ganar").GetComponent<Canvas> ().enabled = false;
-        // Poner aqui, alguna notificacion o algo como que se ha perdido
         estrellaOff1.SetActive(true);
         estrellaOn1.SetActive(false);
         estrellaOff2.SetActive(true);
@@ -182,6 +192,22 @@ public class UnitPlayer : Unit
     {
         transform.position = posicionInicial;
         transform.rotation = rotacionInicial;
+    }
+
+    public void pause ()
+    {
+        if (paused)
+        {
+            Time.timeScale = timeScale;
+            Time.fixedDeltaTime = fixedDeltaTime;
+            paused = false;
+        }
+        else
+        {
+            Time.timeScale = 0f;
+            Time.fixedDeltaTime = 0f;
+            paused = true;
+        }
     }
 
 }
